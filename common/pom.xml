@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.shixinke.practise.sentinel</groupId>
-    <artifactId>sentinel-client</artifactId>
+    <groupId>com.github.shixinke.practise.common</groupId>
+    <artifactId>common-practise</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sentinel-client</name>
     <description>Sentinel Demo project for Spring Boot</description>
@@ -32,12 +32,6 @@
             <version>${spring.boot.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.github.shixinke.practise.common</groupId>
-            <artifactId>common-practise</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
 
 
         <!-- test dependency-->
@@ -46,13 +40,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <version>${spring.boot.version}</version>
             <scope>test</scope>
-        </dependency>
-
-        <!-- sentinel dependency -->
-        <dependency>
-            <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-core</artifactId>
-            <version>${sentinel.version}</version>
         </dependency>
 
         <!-- tools -->
@@ -81,14 +68,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>

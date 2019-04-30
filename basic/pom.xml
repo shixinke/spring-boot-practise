@@ -8,10 +8,10 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.shixinke.practise</groupId>
-    <artifactId>spring-boot-practise</artifactId>
+    <groupId>com.github.shixinke.practise.basic</groupId>
+    <artifactId>basic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-practise</name>
+    <name>basic</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -25,14 +25,15 @@
         </dependency>
 
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
